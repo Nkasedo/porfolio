@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma 1er page HTML</title>
+    <style>
+        .bouton{
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline;
+        }
+        #Bouton-1{
+            background-color: red;
+        }
+        #Bouton-2{
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        alert('Bienvenue dans mon site');
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="kisspng-logo-responsive-web-design-html5-web-page-1713938745589.webp">
+</head>
+<body>
+ <header>
+    <h1>Comment coder</h1>
+    <nav>
+        <ul>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="index.html">index</a></li>
+        </ul>
+    </nav>
+ </header>
+<main>
+<section>
+    <h2>Article de blog</h2>
+    <article>
+        <h3>Mon super article</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error architecto magni nesciunt quis assumenda voluptatibus sed similique facilis quasi harum repudiandae eum, quibusdam dolor! Illo, ex inventore! Quia, ratione.</p>
+        <p>
+            <strong>
+                L'introduction de mon article de blog résumé en un paragraphe
+            </strong>
+        </p>
+    </article>
+</section>
+<h2>Tableaux</h2>
+<table border="1">
+<thead>
+    <tr>
+        <th>Prénom</th>
+        <th>Age</th>
+        <th>Moyenne</th>
+    </tr>
+</thead>
+<tbody>
+        <tr>
+            <td>Alice</td>
+            <td>20</td>
+            <td>16/20</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>25</td>
+            <td>14/20</td>
+        </tr>
+</tbody>
+
+<tfoot>
+        <tr>
+            <td>2</td>
+            <td>25.4</td>
+            <td>15/20</td>
+        </tr>
+</tfoot>
+
+</table>
+</main>
+<section>
+    <h2>
+        <input type="text">
+        <br><br>
+        <textarea rows="5" placeholder="Je sais "></textarea>
+    </h2>
+</section>
+<section>
+<h2>Boutons</h2>
+<div class="bouton" id="Bouton-1">Bouton 1</div>
+<div class="bouton" id="Bouton-2">Bouton 2</div>
+</section>
+<Footer>
+    Comment coder 2025
+</Footer>
+<script src="main.js"></script>
+</body>
+</html>
